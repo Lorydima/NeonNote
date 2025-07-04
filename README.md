@@ -29,3 +29,8 @@ For donwload NeonNote V1.0 follow this link, the software is only for Windows OS
 <a href="https://github.com/Lorydima/NeonNote/releases/download/NeonNoteV1.0/NeoNote_V1.0_Windows.zip"  download>Download NeoNote V1.0</a>
 
 Before you use the software please read the license at this link: <a href="https://github.com/Lorydima/NeonNote/blob/main/LICENSE.txt">License</a>
+
+# 🛠️Bug reports and issue
+I strive to make this project as reliable and robust as possible, but I acknowledge that bugs can happen. If you encounter any issues or identify bugs in the code, I encourage you to open an issue on GitHub. Your feedback is incredibly valuable and helps me improve the project.
+
+Thank you for your contributions and for helping me make this project better!❤️
