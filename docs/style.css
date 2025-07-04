@@ -1,0 +1,854 @@
+body {
+    background-color: rgb(224, 224, 224);
+}
+
+article {
+    background-color: #528AC6;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    border: none;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.hero-text h1 {
+    color: white;
+    margin-top: 150px;
+    padding-left: 50px;
+    font-weight: 40px;
+}
+
+.hero-text h1 span {
+    color: #ffffff;
+}
+
+.hero-text p {
+    color:white;
+    text-align: left;
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+.hero-text a {
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.hero-img {
+    margin-top: -300px;
+    margin-right: 10px;
+    width: 850px;
+    height: 600px;
+}
+
+/* Navbar logo */
+.navbar-brand img {
+    width: 225px;
+}
+
+/* Card Titles */
+.card-title {
+    margin-right: 265px;
+}
+
+.card-title1 h1,
+.card h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0 0 20px 0;
+}
+
+.card-title1 h1 {
+    margin-left: 500px;
+} 
+
+.card-title3 {
+    margin-right: 225px;
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: left;
+}
+
+.card-title1 h1 span,
+.card-title3 h1 span {
+    color: #fff;
+}
+
+/* Card Text */
+.card-text0 p,
+.card-text2 p,
+.card-text3 ul,
+.card-text3 p {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.card-text2 p {
+    text-align: left;
+    margin: 10px 0 0 0;
+    font-size: 1.7rem;
+    line-height: 1.4;
+    max-width: 600px;
+    margin-right: 10px;
+}
+
+.card-text3 h1 {
+    padding-right: 220px;
+}
+.card-text3 ul {
+    padding-left: 25px;
+    font-size: 1.5rem;
+}
+
+/* Download Card */
+.download-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.btn.btn-light, .btn-light {
+    font-size: 2.5rem;
+    width: 425px;
+    margin: 0 auto;
+    background-color: rgb(255, 252, 252);
+    color: rgb(0, 0, 0);
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 685px;
+}
+.btn.btn-light i, .btn-light i {
+    margin-right: 10px;
+}
+.download-info {
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    max-width: 350px;
+    margin-right: -350px;
+    margin-top: -150px;
+}
+
+/* License Section */
+.license-title2 {
+    margin-left: 25px;
+    font-size: 22px;
+    margin-top: 20px;
+    color: white;
+}
+
+.license-description {
+    margin-left: 10px;
+    font-size: 19px;
+    color: white;
+    margin-top: 10px;
+}
+.license-list {
+    margin-left: 10px;
+    font-size: 18px;
+    color: white;
+}
+.license-update,
+.license-thanks {
+    margin-left: 10px;
+    font-size: 18px;
+}
+.license-update {
+    margin-top: 20px;
+}
+.license-thanks {
+    margin-top: 10px;
+}
+
+/* Footer */
+
+.license-hr {
+    margin-bottom: -12px;
+    background-color: rgb(82, 138, 198) ;
+}
+
+footer.bg-white {
+    background: #fff !important;
+    color: #000 !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .d-flex.align-items-center img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+footer .d-flex.align-items-center p,
+footer .d-flex p,
+footer .d-flex.align-items-center a {
+    font-size: 25px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer .d-flex p {
+    margin-right: 20px;
+}
+footer .d-flex.align-items-center a {
+    margin-right: 50px;
+    margin-top: -5px;
+    text-decoration: underline;
+}
+
+/* Website info */
+.Website-info {
+    background-color: white;
+    margin-top: -20px;
+}
+.Website-info p {
+    font-size: 14px;
+    margin: 10px;
+    color: black;
+}
+.Website-info a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.card-title h1 {
+    margin-left: 500px;
+    margin-top: -50px;
+}
+
+.card-title1 h1 {
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.card-title h1 span {
+    color: rgb(255, 255, 255);
+}
+
+.card-text0 p {
+    font-size: 25px;
+    margin-left: 500px;
+}
+
+.card-title2 h1 {
+    font-size: 35px;
+    margin-left: 700px;
+}
+
+.card-text2 p {
+    font-size: 25px;
+    margin-left: 519px;
+    margin-top: -150px;
+}
+
+.card-title3 h1 {
+    font-size: 35px;
+    margin-left: 585px;
+    margin-top: -550px;
+}
+
+.card-text3 p {
+    font-size: 35px;
+    margin-left: 505px;
+    margin-top: -350px;
+}
+
+.card-content2 .img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand span {
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.nav-item .btn-danger {
+    width: 200px;
+    margin-top: 0px;
+}
+
+.card {
+    width: 100%;
+    max-width: 1200px;
+    margin: 25px auto;
+    padding: 30px;
+    background-color: #528AC6;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.card-content {
+    display: flex;
+    align-items: left;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card-image {
+    max-width: 40%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.card-text {
+    max-width: 60%;
+    text-align: right;
+
+}
+
+.card-image3 {
+    width: 100%;
+    max-width: 4000px;
+    height: auto;
+    display: flex;
+}
+
+.card-image3 img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    object-fit: contain;
+    border-radius: 15px;
+    display: block;
+    background: transparent; 
+}
+
+
+.card-text3 {
+    margin-top: -25px;
+}
+
+.card-text3 ul {
+    margin-left: 500px;
+    padding-left: 0;
+    font-size: 30px;
+    color: #fff;
+}
+
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.custom-btn {
+    font-size: 20px;
+    padding: 15px 30px;
+}
+
+.custom-btn i {
+    margin-right: 10px;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.python-icon {
+    color: white;
+    align-items: left;
+    font-size: 250px;
+    margin-bottom: -200px;
+    margin-left: 200px;
+}
+
+.download-info {
+    margin-left: 80px;
+}
+
+.btn-danger {
+    width: 500px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.custom-blue {
+    background-color: #528AC6 !important;
+    border-color: #528AC6 !important;
+    color: #fff !important;
+}
+.custom-blue:hover, .custom-blue:focus {
+    background-color: #113a61 !important;
+    border-color: #113a61 !important;
+    color: #fff !important;
+}
+
+.card-content.card-flex {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.card-image3 {
+    flex: 0 0 500px;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image3 img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    object-fit: contain;
+    border-radius: 15px;
+    display: block;
+    background: transparent;
+}
+
+.card-text3 {
+    flex: 1;
+    margin: 0;
+    color: #fff;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-title3 {
+    margin-right: 225px;
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: left;
+}
+
+.card-text3 ul {
+    margin: 0;
+    padding-left: 25px;
+    font-size: 20px;
+    color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .hero-img {
+        width: 300px;
+        height: 600px;
+        margin-top: 50px;
+        margin-right: 250px;
+    }
+
+    .hero-text h1 {
+        color: white;
+        margin-top: 50px;
+        padding-left: 300px;
+        font-weight: 40px;
+    }
+
+    .hero-text h1 span {
+        color: white;
+    }
+
+    .hero-text p {
+        text-align: left;
+        padding-left: 150px;
+        font-size: 30px;
+    }
+
+    .hero-text a {
+        margin-left: 225px;
+        font-size: 25px;
+    }
+
+    .card {
+        max-width: 90%;
+        padding: 15px;
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .card-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card-content img {
+        height: 250px;
+        width: 650px;
+    }
+
+    .card-image {
+        max-width: 250%;
+    }
+
+    .card-image {
+        height: 1500%;
+    }
+
+    .card-title3 h1 {
+        font-size: 35px;
+        margin-left: 85px;
+        margin-top: -120px;
+    }
+
+    .card-text3 p {
+        font-size: 35px;
+        margin-left: -1px;
+        margin-top: -50px;
+    }
+
+    .card-title h1 {
+        margin-left: 200px;
+        margin-top: 200px;
+    }
+
+    .card-image3 {
+        height: 1000px;
+        width: 100%;
+    }
+
+    .card-title h1 span {
+        color: white;
+    }
+
+    .card-title2 h1 {
+        margin-right: 1500px;
+        margin-top: 200px;
+    }
+
+    .card-text2 p {
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: -25px;
+    }
+
+    .card-text0 p {
+        font-size: 25px;
+        margin-left: 150px;
+    }
+
+    .card-text p, .card-text ul li {
+        font-size: 0.9rem;
+        align-items: center;
+        margin-top: -10px;
+        margin-right: 200px;
+    }
+
+    .python-icon {
+        font-size: 220px;
+        margin-left: 50px;
+        align-items: center;
+        margin-top: -10px;
+    }
+
+    .download-info {
+        margin-top: 180px;
+        margin-left: -500px;
+    }
+
+    .btn-light {
+        width: 500px;
+        margin-top: -300px;
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        transform: none;
+    }
+    
+    .navbar .btn-danger {
+        font-size: 16px;
+        background-color: red;
+        color: white;
+        padding: 8px 15px;
+        border-radius: 5px;
+        text-align: center;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    
+    .hero-img {
+        width: 380px;
+        height: 300px;
+        display: block;
+        margin: 20px auto;
+    }
+    
+    .hero-text h1 {
+        color: white;
+        margin-top: 50px;
+        padding-left: 10px;
+        font-weight: 40px;
+    }
+
+    .hero-text h1 span {
+        color: white;
+    }
+
+    .hero-text p {
+        text-align: left;
+        padding-left: 25px;
+        font-size: 25px;
+    }
+
+    .hero-text a {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 25px;
+        padding-right: 0;
+    }
+    .card {
+        max-width: 95%;
+        padding: 10px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    li {
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .button-container {
+        margin: 15px auto;
+        text-align: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    footer .d-flex.align-items-center,
+    footer .d-flex {
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-logo {
+        width: 80px !important;
+        height: 80px !important;
+        display: block;
+        margin-left: 5px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .footer-title {
+        font-size: 1.7rem;
+        margin: 0 0 10px 0;
+    }
+
+    .footer-version {
+        font-size: 1.3rem;
+        margin: 0 0 10px 0;
+    }
+
+    .footer-dev {
+        font-size: 1.1rem;
+        margin: 0 0 15px 0;
+        text-decoration: underline;
+        display: block;
+        margin-left: 25px;
+    }
+
+    .Website-info {
+        margin-top: 10px;
+        padding: 0 10px;
+    }
+
+    .website-info-text {
+        font-size: 13px;
+        color: #000;
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    .card h1 {
+        font-size: 1.5rem;
+        margin: 10px 0;
+        color: white;
+    }
+    
+    .card p {
+        font-size: 1.5rem;
+        margin: 10px 0;
+        line-height: 1.5;
+    }
+    
+    .card span {
+        color: white;
+    }
+    
+    .card-text2 {
+        margin-top: -50px;
+        text-align: center;
+    }
+    
+    .card-text3 {
+        margin-top: -350px;
+        text-align: center;
+    }
+    
+    .card-image3 {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin: 15px auto;
+        display: block;
+    }
+
+    .card-title {
+        padding-right: 0;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .card-content img {
+        height: auto;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .python-icon {
+        font-size: 220px;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .download-info {
+        text-align: center;
+        font-size: 1.1rem;
+        line-height: 1.5;
+        max-width: 95%;
+        margin: 15px auto 0 auto;
+        padding: 0 10px;
+        color: #222;
+        border-radius: 8px;
+    }
+    
+
+    .card .btn-light {
+        width: 90%;
+        max-width: 350px;
+        margin: 20px auto 10px auto;
+        background-color: rgb(255, 252, 252);
+        color: rgb(0, 0, 0);
+        padding: 18px 0;
+        border-radius: 10px;
+        font-size: 2rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: static;
+        top: unset;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+    }
+    
+    .license-description {
+        text-align: left;
+    }
+
+    .card-title3 {
+        margin-left: 50px  !important;
+        text-align: center !important;
+        width: 100%;
+        padding-left: 0 !important;
+    }
+    .card-text3 li {
+        padding-right: 140px !important;
+    }
+    .card-image3 {
+        margin-right: 100px !important;
+        display: flex !important;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        max-width: 100% !important;
+    }
+}
