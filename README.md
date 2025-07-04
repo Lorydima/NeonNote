@@ -28,4 +28,4 @@ You can access NeonNote Website from this link: <a href="https://lorydima.github
 For donwload NeonNote V1.0 follow this link, the software is only for Windows OS:
 <a href="https://github.com/Lorydima/NeonNote/releases/download/NeonNoteV1.0/NeoNote_V1.0_Windows.zip"  download>Download NeoNote V1.0</a>
 
-Before you use the software please read the license at this link: <a href="">License</a>
+Before you use the software please read the license at this link: <a href="https://github.com/Lorydima/NeonNote/blob/main/LICENSE.txt">License</a>
