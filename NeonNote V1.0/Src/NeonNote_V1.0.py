@@ -1,4 +1,4 @@
-# NeonNote V.1.0 Source Code Date: 00/00/0000 Dev: LDM Dev.
+# NeonNote V.1.0 Source Code Date: 05/07/2025 Dev: LDM Dev.
 
 '''
 NeonNote is a simple note-taking application with a user-friendly interface.
