@@ -165,7 +165,7 @@ def more_functions_window():
     global Entry
     mf_win = Toplevel()
     mf_win.title("More Functions")
-    mf_win.geometry("700x300")  # aumentata larghezza per spazio shortcut
+    mf_win.geometry("700x300")  
     mf_win.configure(bg="#c6c6c6")
     mf_win.resizable(False, False)
     try:
