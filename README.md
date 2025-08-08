@@ -28,6 +28,12 @@ You can access NeonNote Website from this link: <a href="https://lorydima.github
 For donwload NeonNote V1.0 follow this link, the software is only for Windows OS:
 <a href="https://github.com/Lorydima/NeonNote/releases/download/NeonNoteV1.0/NeoNote_V1.0_Windows.zip"  download>Download NeoNote V1.0</a>
 
+> ## ⚠️ For proper program execution, please read the notes below
+>- **Using McAfee antivirus?**  
+  It may block the program from running. To ensure safe execution, add the program to the *excluded files* list under the **Real-Time Scanning** settings.
+>- **Important:**  
+  Although the EXE file is self-contained, **do not delete the `.json` or `.ico` or another tipe files** in the download folder — they are required for the program to function correctly.
+
 Before you use the software please read the license at this link: <a href="https://github.com/Lorydima/NeonNote/blob/main/LICENSE.txt">License</a>
 
 # 🛠️Bug reports and issue
