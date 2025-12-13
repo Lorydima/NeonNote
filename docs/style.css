@@ -51,7 +51,7 @@ hr {
 }
 
 .hero-img {
-    margin-top: -300px;
+    margin-top: -350px;
     margin-right: 10px;
     width: 850px;
     height: 600px;
@@ -146,11 +146,11 @@ hr {
 }
 .download-info {
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 20px;
     line-height: 1.4;
     max-width: 350px;
-    margin-right: -350px;
-    margin-top: -150px;
+    margin-right: -400px;
+    margin-top: -140px;
 }
 
 /* License Section */
