@@ -28,7 +28,7 @@ NeonNote is a simple note-taking application with a user-friendly interface with
 - Shortcut keys for copy, paste, save and opens files
 
 # 🌐NeonNote Website
-<img src="https://github.com/user-attachments/assets/58fb4c29-d5fc-46b7-9fb1-439ef416861a" alt="PyCalc_Pro_V1.1_README_Img" width="1200" height="400">
+<img src="https://github.com/user-attachments/assets/3b95f3da-61af-42c8-b6f6-a2d598c6fb50" alt="PyCalc_Pro_V1.1_README_Img" width="1200" height="400">
 You can access NeonNote Website from this link: <a href="https://lorydima.github.io/NeonNote/" target="_blank">NeonNote Website</a>
 
 # 💾Downolad NeoNote V1.1
