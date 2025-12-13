@@ -1,21 +1,28 @@
 # NeonNote
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/ff5c2180-5a2d-4d1d-9956-cf5bf63b061e" alt="NeonNote_README" width="900" height="900">
+  <img src="https://github.com/user-attachments/assets/689c6cd6-032e-47d7-9214-59bb59e7c1e2" alt="NeonNote_README" width="900" height="900">
 </div>
 
 # 📁Repository Info
-![GitHub stars](https://img.shields.io/github/stars/Lorydima/NeonNote)
-![GitHub forks](https://img.shields.io/github/forks/Lorydima/NeonNote)
-![GitHub last commit](https://img.shields.io/github/last-commit/Lorydima/NeonNote)
-![GitHub version](https://img.shields.io/github/v/release/Lorydima/NeonNote)
-![GitHub top language](https://img.shields.io/github/languages/top/Lorydima/NeonNote)
-![GitHub repo size](https://img.shields.io/github/repo-size/Lorydima/NeonNote)
-![GitHub Issues](https://img.shields.io/github/issues/Lorydima/NeonNote)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Lorydima/NeonNote)
+![GitHub stars](https://img.shields.io/github/stars/Lorydima/NeonNote?color=gold)
+![GitHub top language](https://img.shields.io/github/languages/top/Lorydima/NeonNote?color=informational)
+![GitHub repo size](https://img.shields.io/github/repo-size/Lorydima/NeonNote?color=red)
+![Status: Official](https://img.shields.io/badge/status-official-success)
+![Platform: Windows](https://img.shields.io/badge/platform-Windows-blue)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Lorydima/NeonNote?color=lightblue)
+![GitHub version](https://img.shields.io/github/v/release/Lorydima/NeonNote?color=blueviolet)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Lorydima/NeonNote?color=purple)
+![GitHub Issues](https://img.shields.io/github/issues/Lorydima/NeonNote?color=purple)
+
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-green)
+![License: Source available](https://img.shields.io/badge/license-source--available-blue)
 
 # ℹ️Description
-NeonNote is a simple note-taking application with a user-friendly interface with advanced function
-- Change Font in arial, calibri or segoe UI
+NeonNote is a simple note-taking application with a user-friendly interface with advanced functions
+- Print Function
+- Markdown Converter and Export to .md
+- Export to .pdf
 - Write actual date and time
 - A count chars/words function
 - Shortcut keys for copy, paste, save and opens files
@@ -24,19 +31,22 @@ NeonNote is a simple note-taking application with a user-friendly interface with
 <img src="https://github.com/user-attachments/assets/58fb4c29-d5fc-46b7-9fb1-439ef416861a" alt="PyCalc_Pro_V1.1_README_Img" width="1200" height="400">
 You can access NeonNote Website from this link: <a href="https://lorydima.github.io/NeonNote/" target="_blank">NeonNote Website</a>
 
-# 💾Downolad NeoNote V1.0
-For donwload NeonNote V1.0 follow this link, the software is only for Windows OS:
-<a href="https://github.com/Lorydima/NeonNote/releases/download/NeonNoteV1.0/NeoNote_V1.0_Windows.zip"  download>Download NeoNote V1.0</a>
+# 💾Downolad NeoNote V1.1
+For donwload NeonNote V1.1 follow this link, the software is only for Windows OS:
+<a href="https://github.com/Lorydima/NeonNote/releases/download/NeonNoteV.1.1/NeonNote_V1.1_Windows.zip"  download>Download NeoNote V1.1</a>
 
-> ## ⚠️ For proper program execution, please read the notes below
->- **Using McAfee antivirus?**  
-  It may block the program from running. To ensure safe execution, add the program to the *excluded files* list under the **Real-Time Scanning** settings.
->- **Important:**  
-  Although the EXE file is self-contained, **do not delete the `.json` or `.ico` or another tipe files** in the download folder — they are required for the program to function correctly.
+> [!WARNING]
+> **For proper program execution, please read the notes below**
+> - **Using an antivirus?**  
+>   It may block the program from running. To ensure safe execution, add the program to the *excluded files* list under the **Real-Time Scanning** settings.
+> - **Important:**  
+>   **Do not delete the `.json` or `.ico` or other file types** in the download folder they are required for the program to function correctly.
 
 Before you use the software please read the license at this link: <a href="https://github.com/Lorydima/NeonNote/blob/main/LICENSE.txt">License</a>
 
 # 🛠️Bug reports and issue
-I strive to make this project as reliable and robust as possible, but I acknowledge that bugs can happen. If you encounter any issues or identify bugs in the code, I encourage you to open an issue on GitHub. Your feedback is incredibly valuable and helps me improve the project.
+I do my best to keep this project stable and reliable, but bugs can still happen.
+If you spot any issues or errors, feel free to open a GitHub issue.
+Your feedback really helps me improve the project.
 
-Thank you for your contributions and for helping me make this project better!❤️
+Thanks for contributing and helping make this project better from *LDM Dev*❤️ 
