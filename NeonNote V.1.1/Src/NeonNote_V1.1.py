@@ -6,6 +6,8 @@ NeonNote is a simple note-taking application with a user-friendly interface.
 Git Hub Repository Link: "https://github.com/Lorydima/NeonNote"
 
 NeonNote Website link: "https://lorydima.github.io/NeonNote/"
+
+Before you use this code read the license in the LICENSE.txt or on Git Hub Repository.
 '''
 
 # Library for app Dev.
@@ -470,57 +472,73 @@ def show_license_window():
     except Exception:
         pass
 
-    label = Label(lic_win, text="NeonNote License Agreement", bg="#c6c6c6", font=("Arial", 16, "bold"))
+    label = Label(lic_win, text="NeonNote EULA", bg="#c6c6c6", font=("Arial", 16, "bold"))
     label.pack(pady=20)
 
-    license_text = """NeonNote — Source-Available License
+    license_text = """NeonNote — Source-Available License  
 
-This license applies to NeonNote latest version and all future versions of the software unless otherwise stated.
+This license applies to NeonNote latest version and all future versions of the software unless otherwise stated.  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-1. Scope of the Software
-“Software” refers to all files included in the downloaded folder, including but not limited to:
-- The executable file (.exe)
-- The data file (DATA.json)
-- The icon file (.ico)
-- Any other files distributed with the application
+1. SCOPE OF THE SOFTWARE  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+"Software" refers to all files included in the downloaded folder, including but not limited to:  
+  • The executable file (.exe)  
+  • The data file (.json)  
+  • The icon file (.ico)  
+  • The license file (.txt)  
+  • Any other files distributed with the application  
 
-2. Source Code Access
-The source code is available on GitHub for educational and personal reference only.
-You are allowed to:
-- View and study the code for learning purposes
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-You are not allowed to:
-- Reuse, modify, or incorporate the code into your own projects
-- Distribute the code in any form
-- Use the software or its code for commercial purposes, including selling, licensing, or integrating it into paid products or services
+2. SOURCE CODE ACCESS  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+The source code is available on GitHub for educational, personal reference and transparency from LDM Dev.  
 
-3. Redistribution Restrictions
-- You may not republish or redistribute the software or its source code, in whole or in part, in any form or on any platform (including GitHub), without explicit written permission from LDM Dev.
-- Forking or copying the GitHub repository is not permitted.
+✓ You ARE allowed to:  
+  • View and study the code  
+  • Download the source code (.py) and requirements (.txt) on your PC  
+  • Fork and modify the code for personal or educational purposes  
+  • Submit bug reports, improvements, or new features via GitHub  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-4. Ownership
-All components of the software and its source code are the intellectual property of LDM Dev.
+✗ You are NOT allowed to:  
+  • Use the software or its code for commercial purposes  
+  • Remove or alter attribution to contributors or to the developer LDM Dev  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-5. Respect for Creative Work
-Please respect the effort and creativity behind this project. Do not claim it as your own or use it in ways that disregard the author's intent. Sharing knowledge is valuable — so is recognizing the work of others.
+3. REDISTRIBUTION RESTRICTIONS  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  • You may not republish or redistribute the software or its source code for commercial purposes.  
+  • Non-commercial redistribution (such as forks, copies, or modifications shared on GitHub) is permitted, provided that:  
+    – The license terms are preserved and not modified  
+    – The redistributed version remains free and non-commercial  
 
-6. Disclaimer
-The software is provided “as is”, without any warranties, express or implied. Use it at your own risk.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. OWNERSHIP  
 
-Thank You for your collaboration from LDM Dev.
+All components of the software and its source code remain the intellectual property of LDM Dev.  
+Contributors, including those who provide bug reports, improvements, or new features, will be recognized on GitHub for their contributions, which are licensed back to the project under the same terms.  
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+
+5. WARRANTIES  
+
+The software is provided "as is", without any warranties, express or implied, including but not limited to fitness for a particular purpose.  
+Use it at your own risk.  
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+
+6. ACCEPTANCE OF LICENSE  
+
+This license is also included within the program as an End User License Agreement (EULA).  
+You must accept the license terms in order to use PyCalc Pro. If you do not accept, the program will not run.  
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+
+Thank You for collaboration from LDM Dev. 
 """
     text_box = Text(lic_win, bg="#f0f0f0", fg="#000000", font=("Arial", 11), wrap=WORD, height=10, relief="solid", bd=1)
     text_box.insert(1.0, license_text)
@@ -647,58 +665,74 @@ def read_license_window():
     except Exception:
         pass
 
-    license_text = """NeonNote — Source-Available License
+    license_text = """NeonNote — Source-Available License  
 
-This license applies to NeonNote latest version and all future versions of the software unless otherwise stated.
+This license applies to NeonNote latest version and all future versions of the software unless otherwise stated.  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-1. Scope of the Software
-“Software” refers to all files included in the downloaded folder, including but not limited to:
-- The executable file (.exe)
-- The data file (DATA.json)
-- The icon file (.ico)
-- Any other files distributed with the application
+1. SCOPE OF THE SOFTWARE  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+"Software" refers to all files included in the downloaded folder, including but not limited to:  
+  • The executable file (.exe)  
+  • The data file (.json)  
+  • The icon file (.ico)  
+  • The license file (.txt)  
+  • Any other files distributed with the application  
 
-2. Source Code Access
-The source code is available on GitHub for educational and personal reference only.
-You are allowed to:
-- View and study the code for learning purposes
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-You are not allowed to:
-- Reuse, modify, or incorporate the code into your own projects
-- Distribute the code in any form
-- Use the software or its code for commercial purposes, including selling, licensing, or integrating it into paid products or services
+2. SOURCE CODE ACCESS  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+The source code is available on GitHub for educational, personal reference and transparency from LDM Dev.  
 
-3. Redistribution Restrictions
-- You may not republish or redistribute the software or its source code, in whole or in part, in any form or on any platform (including GitHub), without explicit written permission from LDM Dev.
-- Forking or copying the GitHub repository is not permitted.
+✓ You ARE allowed to:  
+  • View and study the code  
+  • Download the source code (.py) and requirements (.txt) on your PC  
+  • Fork and modify the code for personal or educational purposes  
+  • Submit bug reports, improvements, or new features via GitHub  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-4. Ownership
-All components of the software and its source code are the intellectual property of LDM Dev.
+✗ You are NOT allowed to:  
+  • Use the software or its code for commercial purposes  
+  • Remove or alter attribution to contributors or to the developer LDM Dev  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-5. Respect for Creative Work
-Please respect the effort and creativity behind this project. Do not claim it as your own or use it in ways that disregard the author's intent. Sharing knowledge is valuable — so is recognizing the work of others.
+3. REDISTRIBUTION RESTRICTIONS  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  • You may not republish or redistribute the software or its source code for commercial purposes.  
+  • Non-commercial redistribution (such as forks, copies, or modifications shared on GitHub) is permitted, provided that:  
+    – The license terms are preserved and not modified  
+    – The redistributed version remains free and non-commercial  
 
-6. Disclaimer
-The software is provided “as is”, without any warranties, express or implied. Use it at your own risk.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. OWNERSHIP  
 
-Thank You for your collaboration from LDM Dev.
+All components of the software and its source code remain the intellectual property of LDM Dev.  
+Contributors, including those who provide bug reports, improvements, or new features, will be recognized on GitHub for their contributions, which are licensed back to the project under the same terms.  
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+
+5. WARRANTIES  
+
+The software is provided "as is", without any warranties, express or implied, including but not limited to fitness for a particular purpose.  
+Use it at your own risk.  
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+
+6. ACCEPTANCE OF LICENSE  
+
+This license is also included within the program as an End User License Agreement (EULA).  
+You must accept the license terms in order to use PyCalc Pro. If you do not accept, the program will not run.  
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+
+Thank You for collaboration from LDM Dev. 
 """
 
     # Header label
-    header = Label(lic_win, text="NeonNote License", bg="#c6c6c6", font=("Arial", 16, "bold"))
+    header = Label(lic_win, text="NeonNote EULA", bg="#c6c6c6", font=("Arial", 16, "bold"))
     header.pack(pady=10)
 
     text_box = Text(lic_win, bg="#f0f0f0", fg="#000000", font=("Arial", 11), wrap=WORD, height=20, relief="solid", bd=1)
