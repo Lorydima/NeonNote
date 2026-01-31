@@ -100,7 +100,7 @@ provided that Python and the required dependencies are installed.
 git clone https://github.com/Lorydima/NeonNote.git
 ```
 
-# �️Bug reports and issue
+# 🛠️Bug reports and issue
 I do my best to keep this project stable and reliable, but bugs can still happen.
 If you spot any issues or errors, feel free to open a GitHub issue.
 Your feedback really helps me improve the project.
