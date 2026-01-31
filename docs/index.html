@@ -824,7 +824,7 @@ Public License instead of this License.  But first, please read
         (function(){
             const btn = document.getElementById('download-btn');
             if (!btn) return;
-            const message = "Thank You for downloading NeonNote! Before you start the download, please read the following information:\n\nUsing an antivirus?\n\nIt may block the program from running. To ensure safe execution, add the program to the excluded files list under the Real-Time Scanning settings.\n\nImportant: Do not delete the .json or .ico or other file types in the download folder — they are required for the program to function correctly.";
+            const message = "Security notice\n\nThis application is distributed as a standalone .exe built with PyInstaller. Some antivirus software may occasionally flag unsigned PyInstaller executables as false positives.\n\nYou should NOT disable your antivirus.\nIf your antivirus blocks the file, you can:\n\n- verify the source code in this repository\n- build the executable yourself from source\n- or add the executable to your antivirus allow-list, if you trust the source\n\nNo network access, telemetry, or background processes are used by this application.\n\nImportant: Do not delete the .json or .ico or .txt file types in the download folder they are required for the program to function correctly.";
 
             function notifyBrowser() {
                 if (!('Notification' in window)) return;
