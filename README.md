@@ -36,27 +36,27 @@ NeonNote includes:
 ```
 NeonNote/
 ├── src/
-│   └── neonnote/              # Application source code
-│       ├── main.py            # Application entry point
-│       ├── file_ops.py        # File operations
-│       ├── config.py          # Configuration
-│       ├── info_window.py     # Info window logic
-│       └── assets/            # Application assets
+│   └── neonnote/                # Application source code
+│       ├── main.py              # Application entry point
+│       ├── file_ops.py          # File operations
+│       ├── config.py            # Configuration
+│       ├── info_window.py       # Info window logic
+│       └── assets/              # Application assets
 │           ├── NeonNote_Icon.ico
 │           └── NeonNote_Logo.png
 |
-├── docs/                      # Website Source Code
+├── docs/                        # Website Source Code
 │   ├── index.html
 │   ├── style.css
-│   └── images                 # Website images and ico
+│   └── images                   # Website images and ico
 │
-├── LICENSE.txt                # GPL License
-├── README.md                  # Project overview
-├── CHANGELOG.md               # Version history
-├── CONTRIBUTING.md            # Contribution guidelines
-├── pyproject.toml             # Project metadata and build config
-├── SECURITY.md                # Security Policy
-└── .gitattributes             # Git repository settings
+├── LICENSE.txt                  # GPL License
+├── README.md                    # Project overview
+├── CHANGELOG.md                 # Version history
+├── CONTRIBUTING.md              # Contribution guidelines
+├── pyproject.toml               # Project metadata and build config
+├── SECURITY.md                  # Security Policy
+└── .gitattributes               # Git repository settings
 ```
 
 **About assets:**
