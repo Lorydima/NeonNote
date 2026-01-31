@@ -59,8 +59,8 @@ NeonNote/
 └── .gitattributes               # Git repository settings
 ```
 
-**About assets:**
-Assets (icons and images) are stored inside so the application can find them when run from source or packaged.
+**About assets:**  
+Assets (icons and data files) are stored inside so the application can find them when run from source or packaged.
 
 **About the docs/ folder:**  
 The `docs/` folder contains files used for the source code of website. It is **not required to run the application** locally.
