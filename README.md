@@ -75,8 +75,8 @@ To download NeonNote V1.2 follow this link, the software is for **Windows OS, fo
 <a href="https://github.com/Lorydima/NeonNote/releases/download/NeonNoteV.1.1/NeonNote_V1.1_Windows.zip" download>Download NeonNote V1.2</a>
 
 **For macOS**
-
 The EXE file is not available.
+
 However, the application can be run from source by executing the `main.py` file, provided that Python and the required dependencies are installed.
 
 > [!WARNING]
