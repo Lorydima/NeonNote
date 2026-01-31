@@ -3,12 +3,13 @@
   <img src="https://github.com/user-attachments/assets/689c6cd6-032e-47d7-9214-59bb59e7c1e2" alt="NeonNote_README" width="900" height="900">
 </div>
 
-# 📁Repository Info
+
+# ℹ️Repository Info
 ![GitHub stars](https://img.shields.io/github/stars/Lorydima/NeonNote?color=gold)
-![GitHub top language](https://img.shields.io/github/languages/top/Lorydima/NeonNote?color=informational)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Lorydima/NeonNote?color=red)
-![Status: Official](https://img.shields.io/badge/status-official-success)
-![Platform: Windows](https://img.shields.io/badge/platform-Windows-blue)
+![Platform: Windows](https://img.shields.io/badge/platform-windows-blue)
+![Platform: Linux via Wine](https://img.shields.io/badge/linux%20via%20wine-red?)
+![macOS Support](https://img.shields.io/badge/macos%20via%20main.py-lightblue?)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Lorydima/NeonNote?color=lightblue)
 ![GitHub version](https://img.shields.io/github/v/release/Lorydima/NeonNote?color=blueviolet)
@@ -16,10 +17,12 @@
 ![GitHub Issues](https://img.shields.io/github/issues/Lorydima/NeonNote?color=purple)
 
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-green)
-![License: Source available](https://img.shields.io/badge/license-source--available-blue)
+![License: GPL](https://img.shields.io/badge/license-GPL-blue)
 
-# ℹ️Description
-NeonNote is a simple note-taking application with a user-friendly interface with advanced functions
+
+# 🎲Features
+
+NeonNote includes:
 - Print Function
 - Markdown Converter and Export to .md
 - Export to .pdf
@@ -27,26 +30,79 @@ NeonNote is a simple note-taking application with a user-friendly interface with
 - A count chars/words function
 - Shortcut keys for copy, paste, save and opens files
 
+
+# 📁Project Structure
+
+```
+NeonNote/
+├── src/
+│   └── neonnote/              # Application source code
+│       ├── main.py            # Application entry point
+│       ├── file_ops.py        # File operations
+│       ├── config.py          # Configuration
+│       ├── info_window.py     # Info window logic
+│       └── assets/            # Application assets
+│           ├── NeonNote_Icon.ico
+│           └── NeonNote_Logo.png
+|
+├── docs/                      # Website Source Code
+│   ├── index.html
+│   ├── style.css
+│   └── images                 # Website images and ico
+│
+├── LICENSE.txt                # GPL License
+├── README.md                  # Project overview
+├── CHANGELOG.md               # Version history
+├── CONTRIBUTING.md            # Contribution guidelines
+├── pyproject.toml             # Project metadata and build config
+├── SECURITY.md                # Security Policy
+└── .gitattributes             # Git repository settings
+```
+
+**About assets:**
+Assets (icons and images) are stored inside so the application can find them when run from source or packaged.
+
+**About the docs/ folder:**  
+The `docs/` folder contains files used for the source code of website. It is **not required to run the application** locally.
+
 # 🌐NeonNote Website
-<img src="https://github.com/user-attachments/assets/3b95f3da-61af-42c8-b6f6-a2d598c6fb50" alt="PyCalc_Pro_V1.1_README_Img" width="1200" height="400">
+<img src="https://github.com/user-attachments/assets/3b95f3da-61af-42c8-b6f6-a2d598c6fb50" alt="NeonNote_Website_Img" width="1200" height="400">
 You can access NeonNote Website from this link: <a href="https://lorydima.github.io/NeonNote/" target="_blank">NeonNote Website</a>
 
-# 💾Downolad NeoNote V1.1
-For donwload NeonNote V1.1 follow this link, the software is only for Windows OS:
-<a href="https://github.com/Lorydima/NeonNote/releases/download/NeonNoteV.1.1/NeonNote_V1.1_Windows.zip"  download>Download NeoNote V1.1</a>
+
+# 💾Download NeonNote
+To download NeonNote V1.2 follow this link, the software is for **Windows OS, for linux use Wine:**
+<a href="https://github.com/Lorydima/NeonNote/releases/download/NeonNoteV.1.1/NeonNote_V1.1_Windows.zip" download>Download NeonNote V1.2</a>
+
+**For macOS**
+The EXE file is not available.
+However, the application can be run from source by executing the `main.py` file, provided that Python and the required dependencies are installed.
 
 > [!WARNING]
 > **For proper program execution, please read the notes below**
-> - **Using an antivirus?**  
->   It may block the program from running. To ensure safe execution, add the program to the *excluded files* list under the **Real-Time Scanning** settings.
+> - **AV Alert**
+>   This application is distributed as a standalone .exe.
+>   Some antivirus software may occasionally flag unsigned executables as false positives.
+>  **NOT disable your antivirus.**
+>  If your antivirus blocks the file, you can:
+>    verify the source code in this repository
+>    build the executable yourself from source
+>    or add the executable to your antivirus allow-list, if you trust the source
 > - **Important:**  
->   **Do not delete the `.json` or `.ico` or other file types** in the download folder they are required for the program to function correctly.
+>   **Do not delete the `.ico` or `.txt` or other file types** in the download folder they are required for the program to function correctly.
 
-Before you use the software please read the license at this link: <a href="https://github.com/Lorydima/NeonNote/blob/main/LICENSE.txt">License</a>
 
-# 🛠️Bug reports and issue
+# 🔗Clone Repository
+```bash
+git clone https://github.com/Lorydima/NeonNote.git
+```
+
+# �️Bug reports and issue
 I do my best to keep this project stable and reliable, but bugs can still happen.
 If you spot any issues or errors, feel free to open a GitHub issue.
 Your feedback really helps me improve the project.
 
 Thanks for contributing and helping make this project better from *LDM Dev*❤️ 
+
+# 📄License
+Before you use the software please read the **GPL License** license at this link: <a href="https://github.com/Lorydima/NeonNote/blob/main/LICENSE.txt">License</a>

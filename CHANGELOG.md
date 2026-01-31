@@ -1,7 +1,15 @@
 # Changelog — NeonNote
 
 All notable changes to this project will be documented in this file.  
-This project adheres to the **Source-Available License** defined in LICENSE.md.
+This project adheres to the **GPL License** defined in LICENSE.txt.
+
+
+## [1.2] - 2026-01-31
+### Fixed
+- UI improvements (Button hover effects)
+- Eula Removed
+- Code refactoring and optimization
+
 
 
 ## [1.1] - 2025-12-13

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "NeonNote"
+version = "1.2"
+description = "A simple note-taking application with a user-friendly interface."
+authors = [
+    {name = "LDM Dev."}
+]
+license = {text = "GPL License"}
+requires-python = ">=3.8"
+dependencies = [
+    "reportlab",
+    "pywin32; sys_platform == 'win32'",
+    "pyperclip"
+]
+
+[project.optional-dependencies]
+build = [
+    "pyinstaller>=5.0"
+]
+
+[project.urls]
+Website = "https://lorydima.github.io/NeonNote/"
+Repository = "https://github.com/Lorydima/NeonNote"
