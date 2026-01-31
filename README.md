@@ -1,6 +1,6 @@
 # NeonNote
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/689c6cd6-032e-47d7-9214-59bb59e7c1e2" alt="NeonNote_README" width="900" height="900">
+  <img src="https://github.com/Lorydima/NeonNote/blob/main/docs/NeonNote_README.png" alt="NeonNote_README" width="900" height="900">
 </div>
 
 
@@ -66,7 +66,7 @@ Assets (icons and images) are stored inside so the application can find them whe
 The `docs/` folder contains files used for the source code of website. It is **not required to run the application** locally.
 
 # 🌐NeonNote Website
-<img src="https://github.com/user-attachments/assets/3b95f3da-61af-42c8-b6f6-a2d598c6fb50" alt="NeonNote_Website_Img" width="1200" height="400">
+<img src="https://github.com/user-attachments/assets/b567eee9-9c16-4e00-9ef1-81bdae2732e8" alt="NeonNote_Website_Img" width="1200" height="400">
 You can access NeonNote Website from this link: <a href="https://lorydima.github.io/NeonNote/" target="_blank">NeonNote Website</a>
 
 
@@ -75,6 +75,7 @@ To download NeonNote V1.2 follow this link, the software is for **Windows OS, fo
 <a href="https://github.com/Lorydima/NeonNote/releases/download/NeonNoteV.1.1/NeonNote_V1.1_Windows.zip" download>Download NeonNote V1.2</a>
 
 **For macOS**
+
 The EXE file is not available.
 
 However, the application can be run from source by executing the `main.py` file, provided that Python and the required dependencies are installed.
