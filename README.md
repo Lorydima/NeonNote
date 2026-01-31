@@ -72,7 +72,7 @@ You can access NeonNote Website from this link: <a href="https://lorydima.github
 
 # 💾Download NeonNote
 To download NeonNote V1.2 follow this link, the software is for **Windows OS, for linux use Wine:**
-<a href="https://github.com/Lorydima/NeonNote/releases/download/NeonNoteV.1.1/NeonNote_V1.1_Windows.zip" download>Download NeonNote V1.2</a>
+<a href="https://github.com/Lorydima/NeonNote/releases/download/NeonNoteV1.2/NeonNote_V1.2.zip" download>Download NeonNote V1.2</a>
 
 **For macOS**  
 The EXE file is not available.
