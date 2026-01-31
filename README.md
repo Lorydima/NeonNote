@@ -80,16 +80,17 @@ However, the application can be run from source by executing the `main.py` file,
 
 > [!WARNING]
 > **For proper program execution, please read the notes below**
-> - **AV Alert**
->   This application is distributed as a standalone .exe.
->   Some antivirus software may occasionally flag unsigned executables as false positives.
+> - **AV Alert**  
+>   This application is distributed as a standalone .exe built with PyInstaller.
+>   Some antivirus software may occasionally flag unsigned PyInstaller executables as false positives.
 >  **NOT disable your antivirus.**
 >  If your antivirus blocks the file, you can:
 >    verify the source code in this repository
 >    build the executable yourself from source
 >    or add the executable to your antivirus allow-list, if you trust the source
+>  No network access, telemetry, or background processes are used by this application.
 > - **Important:**  
->   **Do not delete the `.ico` or `.txt` or other file types** in the download folder they are required for the program to function correctly.
+>   **Do not delete the `.ico` or `.txt` other file types** in the download folder they are required for the program to function correctly.
 
 
 # 🔗Clone Repository
