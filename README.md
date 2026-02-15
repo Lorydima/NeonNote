@@ -82,6 +82,7 @@ provided that Python and the required dependencies are installed.
 
 > [!WARNING]
 > **For proper program execution, please read the notes below**
+> 
 >   **Do not delete the `.ico` or `.txt` other file types** in the download folder they are required for the program to function correctly.
 
 
