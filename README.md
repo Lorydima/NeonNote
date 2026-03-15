@@ -19,17 +19,12 @@
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-green)
 ![License: GPL](https://img.shields.io/badge/license-GPL-blue)
 
+# 🎲 Features
 
-# 🎲Features
-
-NeonNote includes:
-- Print Function
-- Markdown Converter and Export to .md
-- Export to .pdf
-- Write actual date and time
-- A count chars/words function
-- Shortcut keys for copy, paste, save and opens files
-
+| Images | Feature Description |
+|------------|-------------------|
+| ![NeonNote 1](https://lorydima.github.io/NeonNote/NeonNote_README_02.png)| **Large Text Box** |
+| ![NeonNote 2](https://lorydima.github.io/NeonNote/NeonNote_README_03.png)| **More Functions**|
 
 # 📁Project Structure
 
@@ -89,6 +84,12 @@ provided that Python and the required dependencies are installed.
 # 🔗Clone Repository
 ```bash
 git clone https://github.com/Lorydima/NeonNote.git
+```
+```bash
+pip install -r requirements.txt
+```
+```bash
+run main.py
 ```
 
 # 🛠️Bug reports and issue
