@@ -1,0 +1,3 @@
+reportlab
+pyperclip
+pywin32
