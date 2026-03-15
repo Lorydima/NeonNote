@@ -24,7 +24,7 @@
 | Images | Feature Description |
 |------------|-------------------|
 | ![NeonNote 1](https://lorydima.github.io/NeonNote/NeonNote_README_02.png)| **Large Text Box** |
-| ![NeonNote 2](https://lorydima.github.io/NeonNote/NeonNote_README_03.png)| **More Functions**|
+| ![NeonNote 2](https://lorydima.github.io/NeonNote/NeonNote_README_03.png)| **More Functions and shortcuts**|
 
 # 📁Project Structure
 
