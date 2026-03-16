@@ -50,6 +50,7 @@ NeonNote/
 ├── CHANGELOG.md                 # Version history
 ├── CONTRIBUTING.md              # Contribution guidelines
 ├── pyproject.toml               # Project metadata and build config
+├── requirements.txt             # Project Library file
 ├── SECURITY.md                  # Security Policy
 └── .gitattributes               # Git repository settings
 ```
