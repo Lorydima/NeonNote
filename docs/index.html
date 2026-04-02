@@ -30,11 +30,11 @@
                             <p class="nav-link mb-0 text-dark fw-bold">Version 1.2</p>
                         </li>
                         <li class="nav-item">
-                            <center>
-                                <a class="btn custom-blue ms-3 align-text-bottom" href="https://github.com/Lorydima/NeonNote" target="_blank">
+                            <div class="text-center">
+                                <a class="btn custom-blue ms-lg-3 align-text-bottom" href="https://github.com/Lorydima/NeonNote" target="_blank">
                                     <i class="fab fa-github me-2"></i> GitHub Repository
                                 </a>
-                            </center>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -45,7 +45,7 @@
             <p>A simple note-taking application <br> with a user-friendly interface <br>and advanced functions</p>
             <a href="https://github.com/Lorydima" target="_blank">Developed by LDM Dev</a>
         </div>
-        <div class="d-flex justify-content-end">
+        <div class="d-flex justify-content-center mt-4">
             <img src="NeonNote_README.png" class="img-fluid hero-img" alt="NeonNote_README_Img">
         </div>
         <hr>
@@ -103,15 +103,35 @@
     </div>
 
     <div class="card">
-        <h1 class="download-title">Download <span>NeonNote V1.2</span></h1>
-        <div class="download-section">
-            <a id="download-btn" href="https://github.com/Lorydima/NeonNote/releases/download/NeonNoteV1.2/NeonNote_V1.2.zip" download class="btn btn-light download-btn">
-                <i class="fas fa-download"></i> Download Now
+        <h1>Download <span>NeonNote</span></h1>
+        
+        <div class="premium-download-button-wrapper">
+            <a id="download-btn" href="https://github.com/Lorydima/NeonNote/releases/download/NeonNoteV1.2/NeonNote_V1.2.zip" download class="premium-download-button">
+                <div class="premium-button-icon">
+                    <i class="fas fa-file-download"></i>
+                </div>
+                <div class="premium-button-text">
+                    <span class="main-text">Download Now</span>
+                    <span class="sub-text">v1.2</span>
+                </div>
             </a>
-            <div class="download-info">
-                <p style="font-size: 30px;">Download NeonNote V1.2 Release Date 31/12/2026</p>
-                <p style="font-size: 30px;">The download is for <strong>Windows OS, for linux use Wine.</strong></p>
-                <p style="font-size: 30px;">macOS users can run the application from source via GitHub.</strong></p>
+        </div>
+
+        <div class="premium-download-info">
+            <p class="release-date">Release Date: 31/01/2026</p>
+            <div class="platform-list">
+                <div class="platform-item">
+                    <i class="fab fa-windows"></i>
+                    <span>Windows OS</span>
+                </div>
+                <div class="platform-item">
+                    <i class="fab fa-linux"></i>
+                    <span>Linux (use Wine)</span>
+                </div>
+                <div class="platform-item-APPLE">
+                    <i class="fab fa-apple"></i>
+                    <span>macOS (Run from source via GitHub)</span>
+                </div>
             </div>
         </div>
     </div>
@@ -824,7 +844,7 @@ Public License instead of this License.  But first, please read
         (function(){
             const btn = document.getElementById('download-btn');
             if (!btn) return;
-            const message = "Security notice\n\nThis application is distributed as a standalone .exe built with PyInstaller. Some antivirus software may occasionally flag unsigned PyInstaller executables as false positives.\n\nYou should NOT disable your antivirus.\nIf your antivirus blocks the file, you can:\n\n- verify the source code in this repository\n- build the executable yourself from source\n- or add the executable to your antivirus allow-list, if you trust the source\n\nNo network access, telemetry, or background processes are used by this application.\n\nImportant: Do not delete the .json or .ico or .txt file types in the download folder they are required for the program to function correctly.";
+            const message = "Thanks for downloading NeonNote!\n\nSecurity notice\n\nThis application is distributed as a standalone .exe built with PyInstaller. Some antivirus software may occasionally flag unsigned PyInstaller executables as false positives.\n\nYou should NOT disable your antivirus.\nIf your antivirus blocks the file, you can:\n\n- verify the source code in this repository\n- build the executable yourself from source\n- or add the executable to your antivirus allow-list, if you trust the source\n\nNo network access, telemetry, or background processes are used by this application.\n\nImportant: Do not delete the .json or .ico or .txt file types in the download folder they are required for the program to function correctly.";
 
             function notifyBrowser() {
                 if (!('Notification' in window)) return;

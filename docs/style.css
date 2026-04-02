@@ -52,17 +52,17 @@ hr {
 
 .hero-img {
     margin-top: -350px;
-    margin-right: 10px;
+    margin-right: -600px;
     width: 850px;
     height: 600px;
 }
 
-/* Navbar logo */
+
 .navbar-brand img {
     width: 225px;
 }
 
-/* Card Titles */
+
 .card-title {
     margin-right: 265px;
 }
@@ -91,7 +91,7 @@ hr {
     color: #fff;
 }
 
-/* Card Text */
+
 .card-text0 p,
 .card-text2 p,
 .card-text3 ul,
@@ -119,42 +119,174 @@ hr {
     font-size: 1.5rem;
 }
 
-/* Download Card */
-.download-section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 40px;
-    flex-wrap: wrap;
-}
-.btn.btn-light, .btn-light {
-    font-size: 2.5rem;
-    width: 425px;
-    margin: 0;
-    background-color: rgb(255, 252, 252);
-    color: rgb(0, 0, 0);
-    padding: 20px 40px;
-    border-radius: 10px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -50px;
-    margin-right: 60px;
-}
-.btn.btn-light i, .btn-light i {
-    margin-right: 10px;
-}
-.download-info {
-    text-align: left;
-    font-size: 20px;
-    line-height: 1.4;
-    max-width: 350px;
+
+
+
+
+.premium-download-title {
+    font-size: 3.5rem;
+    margin-bottom: 40px;
+    font-weight: 800;
+    font-family: Arial, sans-serif;
 }
 
-/* License Section */
+.premium-download-title span {
+    color: #528AC6; 
+}
+
+.premium-download-button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.premium-download-button {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; 
+    color: #000000 !important;
+    text-decoration: none !important;
+    padding: 18px 55px;
+    border-radius: 35px;
+    width: fit-content;
+    border: 3px solid #000000;
+}
+.premium-download-button:hover {
+    background-color: #f0f0f0;
+    color: #000000 !important;
+}
+
+.premium-button-icon {
+    font-size: 3.8rem;
+    margin-right: 25px;
+    line-height: 1;
+}
+
+.premium-button-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.premium-button-text .main-text {
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 4px;
+    color: #000000 !important;
+    display: block;
+}
+.premium-button-text .sub-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    opacity: 0.9;
+    color: #000000 !important;
+    display: block;
+}
+
+.premium-download-info {
+    margin-top: 20px;
+}
+
+.release-date {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.platform-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.platform-item {
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.platform-item-APPLE {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.platform-item i {
+    width: 30px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .premium-download-card {
+        max-width: 92%;
+        padding: 40px 20px;
+        border-radius: 35px;
+        border-width: 4px;
+        margin: 40px auto;
+    }
+    
+    .premium-download-title {
+        font-size: 2.2rem;
+    }
+    
+    .premium-download-button-wrapper {
+        margin-top: 40px;
+        margin-bottom: 35px;
+    }
+    
+    .premium-download-button {
+        padding: 15px 35px;
+        width: 100%;
+        max-width: 400px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .premium-button-icon {
+        font-size: 2.8rem;
+        margin-right: 15px;
+    }
+    
+    .premium-button-text .main-text {
+        font-size: 1.7rem;
+    }
+    
+    .release-date {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    
+    .platform-item {
+        font-size: 1.3rem;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        max-width: 320px; 
+        margin: 0 auto;
+    }
+}
+
+.platform-item-APPLE {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
 .license-title2 {
     margin-left: 25px;
     font-size: 22px;
@@ -185,7 +317,7 @@ hr {
     margin-top: 10px;
 }
 
-/* Footer */
+
 
 .license-hr {
     margin-bottom: -12px;
@@ -222,7 +354,7 @@ footer .d-flex.align-items-center a {
     text-decoration: underline;
 }
 
-/* Website info */
+
 .Website-info {
     background-color: white;
     margin-top: -20px;
@@ -610,6 +742,11 @@ footer a {
         width: 500px;
         margin-top: -300px;
         margin-left: 150px;
+    }
+
+    .platform-item-APPLE {
+            font-size: 1.7rem;
+            font-weight: bold;
     }
 }
 
